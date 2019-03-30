@@ -7,12 +7,7 @@
 #define MILLIDEBOUNCE 1 //Debounce time in milliseconds
 #define pinOBLED 21  //Onboard LED pin
 
-/*
-  The following ButtonMap variable defines all possible buttons within the
-  original 13 bits of space, along with attempting to investigate the remaining
-  3 bits that are 'unused'. This is what led to finding that the 'Capture'
-  button was operational on the stick.
-*/
+
 bool buttonStartBefore;
 bool buttonSelectBefore;
 byte buttonStatus[15];

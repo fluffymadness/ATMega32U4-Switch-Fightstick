@@ -3,7 +3,7 @@
 This one is a working switch fightstick sketch
 flashable via Arduino IDE. I personally use it on a pro micro clone microcontroller that can be bought for 2-3$ on aliexpress. My motivation was to have a working solution for dirt-cheap easy source-able parts. Well here it is. 
 
-The Code itself has Bounce Detection, and 3 Modes of input.
+The Code itself has proper Button-Debounce, and 3 Modes of input.
 
 You can switch seamlessly between the 3 modes by pressing START+SELECT. 
 
